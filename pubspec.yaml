@@ -65,6 +65,7 @@ flutter:
   assets:
     - assets/
     - assets/json/
+    - assets/frutas/
     - assets/images/isotipo_login.png
     - assets/images/logotipo.png
     - assets/icons/facebook.png
