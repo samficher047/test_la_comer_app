@@ -78,7 +78,7 @@ class _ProductCardState extends State<ProductCard> {
 
                   children: [
                     Center(
-                      child: Image.network(
+                      child: Image.asset(
                         widget.product.image,
                         height: 80,
                         fit: BoxFit.contain,
