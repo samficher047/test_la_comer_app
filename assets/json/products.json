@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Limón sin semilla",
+    "price": 25.90,
+    "unit": "1kg",
+    "image": "https://chedrauimx.vtexassets.com/arquivos/ids/68284552-1600-1600?width=1600&height=1600&aspect=true",
+    "category": "Frutas y verduras"
+  },
+  {
+    "id": 2,
+    "name": "Platano",
+    "price": 25.90,
+    "unit": "1kg",
+    "image": "https://chedrauimx.vtexassets.com/arquivos/ids/68284552-1600-1600?width=1600&height=1600&aspect=true",
+    "category": "Frutas y verduras"
+  },
+  {
+    "id": 3,
+    "name": "Granada roja",
+    "price": 25.90,
+    "unit": "1kg",
+    "image": "https://chedrauimx.vtexassets.com/arquivos/ids/68284552-1600-1600?width=1600&height=1600&aspect=true",
+    "category": "Frutas y verduras"
+  },
+  {
+    "id": 4,
+    "name": "Naranja",
+    "price": 25.90,
+    "unit": "1kg",
+    "image": "https://chedrauimx.vtexassets.com/arquivos/ids/68284552-1600-1600?width=1600&height=1600&aspect=true",
+    "category": "Frutas y verduras"
+  }
+]
