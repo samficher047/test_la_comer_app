@@ -15,10 +15,10 @@ class _ProductCardState extends State<ProductCard> {
   bool isHovered = false;
   bool isFavorite = false;
 
-  /// Cuando se selecciona la card
+
   bool isSelected = false;
 
-  /// Cantidad inicial
+
   int quantity = 1;
 
   @override
@@ -146,7 +146,7 @@ class _ProductCardState extends State<ProductCard> {
                           duration: const Duration(milliseconds: 250),
 
                           child: isSelected
-                              /// STEPPER
+                        
                               ? Container(
                                   key: const ValueKey('stepper'),
 
@@ -168,7 +168,7 @@ class _ProductCardState extends State<ProductCard> {
                                     mainAxisSize: MainAxisSize.min,
 
                                     children: [
-                                      /// MENOS
+                             
                                       GestureDetector(
                                         onTap: () {
                                           if (quantity > 1) {
@@ -203,7 +203,6 @@ class _ProductCardState extends State<ProductCard> {
 
                                       const SizedBox(width: 14),
 
-                                      /// CANTIDAD
                                       Text(
                                         '${quantity}kg',
 
@@ -215,7 +214,7 @@ class _ProductCardState extends State<ProductCard> {
 
                                       const SizedBox(width: 14),
 
-                                      /// MAS
+                               
                                       GestureDetector(
                                         onTap: () {
                                           setState(() {
